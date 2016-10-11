@@ -3,7 +3,7 @@
 
 by Giovanni Dicanio
 
-The double-NUL-terminated string is a data structure used in several places on the Win32 platform.
+The **double-NUL-terminated string** is a data structure used in several places on the Win32 platform.
 
 For example, the Windows registry can store double-NUL-terminated strings using the `REG_MULTI_SZ` type.  
 As another example, the `lpstrFilter` of the [`OPENFILENAME` structure][MSDN_OFN] points to a buffer 
