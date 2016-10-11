@@ -45,7 +45,7 @@ Once you have a pointer to a double-NUL-termianted string, you can traverse this
   }
 ```
 
-The C++ code in this repo contains a couple of functions: one (`BuildDoubleNulTerminatedString`) to flatten a `std::vector<CString>` in a double-NUL-terminated string (stored in a `vector<wchar_t>`), and the inverse one (`ParseDoubleNulTerminatedString`) to parse a double-NUL-terminated string into a `vector<CString>`.
+The C++ code in this repo contains a couple of functions: one (**`BuildDoubleNulTerminatedString`**) to flatten a `std::vector<CString>` in a double-NUL-terminated string (stored in a `vector<wchar_t>`), and the inverse one (**`ParseDoubleNulTerminatedString`**) to parse a double-NUL-terminated string into a `vector<CString>`.
 There is also some simple test code.
 
 I used the `CString` class to store the strings, as `CString` is well integrated in Windows C++ specific frameworks like ATL/WTL and MFC.
